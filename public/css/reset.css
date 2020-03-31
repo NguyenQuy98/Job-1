@@ -1,0 +1,44 @@
+body,dl,dd,ul,ol,h1,h2,h3,h4,h5,h6,pre,form,input,textarea,p,hr,thead,tbody,tfoot,th,td{margin:0;padding:0;letter-spacing:1px}
+ul,ol{list-style:none;}
+a{text-decoration:none;letter-spacing:1px}
+html{-ms-text-size-adjust:none;-webkit-text-size-adjust:none;text-size-adjust:none;-webkit-tap-highlight-color:none}
+body{font-size:14px;-text-size-adjust:none;-webkit-user-select:none;user-select:none;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+body,button,input,select,textarea{font-family:"PingHei","STHeitiSC-Light", "tahoma", "Myriad Set Pro", "Lucida Grande","Helvetica Neue", "Helvetica", "Arial","Verdana", "sans-serif","microsoft yahei";}
+b,strong{font-weight:bold;}
+i,em{font-style:normal;}
+table{border-collapse:collapse;border-spacing:0;} 
+table th{font-weight:inherit;}
+img{border:0 none;width:auto\9;max-width:100%;vertical-align:top; height:auto;}
+button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;vertical-align:baseline;}
+button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;}
+button[disabled],input[disabled]{cursor:default;}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;}
+input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}
+input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}
+input:focus,select:focus{outline:none;}
+input,textarea{-webkit-appearance: none;appearance: none;}
+select[size],select[multiple],select[size][multiple]{border:1px solid #AAA;padding:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block;}
+audio,canvas,video,progress{display:inline-block;}
+body{background:#fff;}
+input::-webkit-input-speech-button {display: none}
+a,button,input,textarea{
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+/*placeholder文字默认颜色-webkit-input-placeholder*/
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ color: #959595; font-size: 0.24rem; letter-spacing: 1px;}
+::-moz-placeholder { /* Mozilla Firefox 19+ */ color: #959595; font-size: 0.24rem; letter-spacing: 1px;}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {  color: #959595; font-size: 0.24rem; letter-spacing: 1px;}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {  color: #959595; font-size: 0.24rem; letter-spacing: 1px;}
+.box-size{
+-moz-box-sizing: border-box; /*Firefox3.5+*/
+-webkit-box-sizing: border-box; /*Safari3.2+*/
+-o-box-sizing: border-box; /*Opera9.6*/
+-ms-box-sizing: border-box; /*IE8*/
+box-sizing: border-box; /*W3C标准(IE9+，Safari5.1+,Chrome10.0+,Opera10.6+都符合box-sizing的w3c标准语法)*/
+}
+.container{
+	margin: 0 0.3rem;
+}
