@@ -451,7 +451,7 @@
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <a href="javascript:void(0)" data-dismiss="modal" aria-label="Close"><img src="/public/images/close.png" width="50"></a>
-                        <video id="movie" src="/public/video/video.mp4" width="100%" controls="" loop="" controls autoplay></video>
+                        <video id="movie" src="/public/video/video.mp4" width="100%" controls="" loop=""></video>
                     </div>
                 </div>
             </div>
@@ -629,12 +629,21 @@
             $("#linkBanner").find("li").eq(indexActive).addClass("active")
             $("#contentBanner").find("div").eq(indexActive).addClass("active");
         });
-        $(".videoBtn").click(function() {
-            var vid = document.getElementById("movie");
-            vid.autoplay = true;
-            vid.load();
-        });
+
     });
+    $(".videoBtn").click(function() {
+        var vid = document.getElementById("movie");
+        vid.autoplay = true;
+        vid.load();
+    });
+    $('#VideoModalHome').on('hidden.bs.modal', function(e) {
+        var check = $('#VideoModalHome').is(':visible');
+        if (check == false) {
+            var vid = document.getElementById("movie");
+            vid.autoplay = false;
+            vid.load();
+        }
+    })
 </script>
 
 </html>
