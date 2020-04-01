@@ -1754,7 +1754,6 @@ ul {
   line-height: 18px;
   margin-bottom: 40px;
   color: #000;
-  width: 25%;
   float: left;
   height: 340px;
   overflow: hidden;
@@ -1765,7 +1764,6 @@ ul {
 }
 .pageDetail .involveProduct .content-involve .proItem > div {
   cursor: pointer;
-  margin: 0 20px;
   -moz-transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
@@ -1778,7 +1776,7 @@ ul {
   font-size: 14px;
   margin-bottom: 3px;
 }
-.pageDetail .involveProduct .content-involve .proItem > div:hover {
+.pageDetail .involveProduct .content-involve .proItem:hover {
   box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.08);
   -moz-transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear;
@@ -1791,7 +1789,7 @@ ul {
   background: #E8ECEF;
 }
 .pageDetail .modal-dialog {
-  max-width: 70%;
+  max-width: 35%;
 }
 .pageDetail .modal-dialog .modal-content {
   border-radius: 10px;
@@ -2493,6 +2491,14 @@ ul {
   .pageDetail .box-product .box-detail .infoBox .basic li {
     list-style: none;
     width: 50%;
+  }
+  .pageDetail .box-product .box-detail .infoBox .basic .btnCart-box .goBuy {
+    display: block;
+    margin-bottom: 14px;
+  }
+  .pageDetail .box-product .box-detail .infoBox .basic .btnCart-box .notification {
+    display: block;
+    margin-right: 0;
   }
   .pageDetail .involveProduct .content-involve .proItem {
     width: 100%;
