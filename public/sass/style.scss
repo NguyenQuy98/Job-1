@@ -2446,6 +2446,12 @@ ul {
             .content-involve {
                 .proItem {
                     width: 100%;
+                    height: auto;
+                }
+            }
+            .proItem>div {
+                .img {
+                    height: auto;
                 }
             }
         }

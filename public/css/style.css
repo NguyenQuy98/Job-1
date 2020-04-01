@@ -2312,6 +2312,10 @@ ul {
   }
   .pageDetail .involveProduct .content-involve .proItem {
     width: 100%;
+    height: auto;
+  }
+  .pageDetail .involveProduct .proItem > div .img {
+    height: auto;
   }
   .pageDetail .modal-dialog {
     max-width: 100%;
