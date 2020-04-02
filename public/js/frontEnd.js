@@ -56,48 +56,8 @@ $(function() {
         })
         //page product---------------
     $(".switch-content .switch-popup li").hammer().on('tap', function() {
-            $(this).addClass("active").siblings("li").removeClass("active");
-        })
-        // $(".submenu").eq(0).show();
-        // $(".submenu-niu").show();
-        // $(".submenu-anju").hide();
-        // $('.menu .line').width($(".menu li").eq(0).width());
-        // $(".menu li").hammer().on('tap', function() {
-        //     var widthLi = $(this).width();
-        //     var liWidth = $(this).offset().left;
-        //     var margin = $("#container").offset().left;
-        //     $(".submenu").hide().eq($(this).index()).show();
-        //     $(this).addClass("on");
-        //     $('.menu .line').width(widthLi);
-        //     $('.menu .line').stop(false, true).animate({
-        //         'left': liWidth - margin + 'px'
-        //     }, 300);
-        // })
-        // $(".tab_content").eq(0).show();
-        // $('.tablist ul .line').width($(".tablist ul li").eq(0).width());
-        // $(".tablist ul li").hammer().on('tap', function() {
-        //     var widthLi = $(this).width();
-        //     var liWidth = $(this).offset().left;
-        //     var margin = $("#container").offset().left;
-        //     $('.tablist ul .line').width(widthLi);
-        //     $(".tab_content").hide().eq($(this).index()).show();
-        //     $('.tablist ul .line').stop(false, true).animate({
-        //         'left': liWidth - margin + 'px'
-        //     }, 300);
-        // })
-        // $(".submenus").eq(0).show();
-        // $('.menus .line').width($(".menus li").eq(0).width());
-        // $(".menus li").hammer().on('tap', function() {
-        //     $(this).addClass("active").siblings('li').removeClass("active");
-        //     var widthLi = $(this).width();
-        //     var liWidth = $(this).offset().left;
-        //     var margin = $("#container").offset().left;
-        //     $(".submenus").hide().eq($(this).index()).show();
-        //     $('.menus .line').width(widthLi);
-        //     $('.menus .line').stop(false, true).animate({
-        //         'left': liWidth - margin + 'px'
-        //     }, 300);
-        // })
+        $(this).addClass("active").siblings("li").removeClass("active");
+    })
     $(".menuMain dt").hammer().on('tap', function() {
         $(this).siblings("dd").slideToggle(300);
         $(this).toggleClass('active');
@@ -207,6 +167,10 @@ function bannerWrap() {
     $('#contentBanner').css({
         'height': windowH - 60,
     })
+    $('.pagePrice .imgHeight').css({
+        'height': windowH - 60,
+    })
+
 
 }
 bannerWrap();
