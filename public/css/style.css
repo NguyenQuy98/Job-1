@@ -2472,6 +2472,13 @@ ul {
 .pageContact .content .txt-content {
   margin-bottom: 25px;
 }
+.pageContact .content .txt-content a {
+  border: 1px solid #fff;
+  font-size: 12px;
+  color: #fff;
+  padding: 2px 6px;
+  margin-top: 20px;
+}
 .pageContact .content .box-link-code .titel {
   font-size: 18px;
   color: #fff;
@@ -2493,13 +2500,6 @@ ul {
 .pageContact .content .box-link-code .box-link .item-link .name {
   font-size: 12px;
   margin-top: 15px;
-}
-.pageContact .content .box-link-code .box-link .item-link .name a {
-  border: 1px solid #fff;
-  font-size: 12px;
-  color: #fff;
-  padding: 2px 6px;
-  margin-top: 20px;
 }
 
 @keyframes dx {

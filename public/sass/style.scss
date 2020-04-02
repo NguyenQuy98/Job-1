@@ -2623,6 +2623,13 @@ ul {
         }
         .txt-content {
             margin-bottom: 25px;
+            a {
+                border: 1px solid #fff;
+                font-size: 12px;
+                color: #fff;
+                padding: 2px 6px;
+                margin-top: 20px;
+            }
         }
         .box-link-code {
             .titel {
@@ -2646,13 +2653,6 @@ ul {
                     .name {
                         font-size: 12px;
                         margin-top: 15px;
-                        a {
-                            border: 1px solid #fff;
-                            font-size: 12px;
-                            color: #fff;
-                            padding: 2px 6px;
-                            margin-top: 20px;
-                        }
                     }
                 }
             }
