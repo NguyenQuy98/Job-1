@@ -939,6 +939,120 @@ ul {
 .pagehomewrap .package .lh-Box .lh-Info .tel .number a {
   color: #fff;
 }
+.pagehomewrap .package .switch {
+  width: 100%;
+  overflow: hidden;
+}
+.pagehomewrap .package .switch .col-lg-6 {
+  padding: 0;
+}
+.pagehomewrap .package .switch .pack {
+  position: relative;
+  overflow: hidden;
+}
+.pagehomewrap .package .switch .pr {
+  margin-right: 12px;
+}
+.pagehomewrap .package .switch .pl {
+  margin-left: 12px;
+}
+.pagehomewrap .package .switch .pack img {
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+  width: 100%;
+  height: auto;
+}
+.pagehomewrap .package .switch .pack img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.pagehomewrap .package .switch .pack .icon {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  line-height: 30px;
+  margin-left: -66px;
+}
+.pagehomewrap .package .switch .pack .icon img {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+.pagehomewrap .package .switch .pack .icon i {
+  display: inline-block;
+  width: 2px;
+  height: 25px;
+  vertical-align: middle;
+  margin: 0 6px;
+}
+.pagehomewrap .package .switch .pack .icon span {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+}
+.pagehomewrap .package .switch .icon_black i {
+  background: #32211b;
+}
+.pagehomewrap .package .switch .icon_black span {
+  color: #32211b;
+}
+.pagehomewrap .package .switch .icon_white i {
+  background: #fff;
+}
+.pagehomewrap .package .switch .icon_white span {
+  color: #fff;
+}
+.pagehomewrap .package .link {
+  width: 100%;
+  overflow: hidden;
+  margin: 35px 0;
+}
+.pagehomewrap .package .link .col-lg-4 {
+  padding: 0;
+}
+.pagehomewrap .package .link .col-lg-4 .pic1 {
+  padding-right: 10px;
+}
+.pagehomewrap .package .link .col-lg-4 .pic2 {
+  padding: 0 5px;
+}
+.pagehomewrap .package .link .col-lg-4 .pic3 {
+  padding-left: 10px;
+}
+.pagehomewrap .package .link .col-lg-4 div {
+  overflow: hidden;
+}
+.pagehomewrap .package .link .col-lg-4 img {
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+  border: 0 none;
+  max-width: 100%;
+  vertical-align: top;
+  height: auto;
+  width: 100%;
+}
+.pagehomewrap .package .link .col-lg-4 img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.pagehomewrap .package .link .col-lg-4 video {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
 
 .pageHomeMobile {
   display: none;
@@ -1142,6 +1256,29 @@ ul {
 }
 .pageHomeMobile .VideoModalHome .modal-dialog .modal-content video {
   width: 100%;
+}
+.pageHomeMobile .pic {
+  border-radius: 0.1rem;
+  margin-bottom: 0.5rem;
+}
+.pageHomeMobile .pic .swiper-pagination-bullet {
+  background: #e7e7e7;
+  opacity: 1;
+  width: 0.7rem !important;
+  height: 0.05rem !important;
+  border-radius: 0;
+}
+.pageHomeMobile .pic .swiper-pagination-bullet-active {
+  background: #e30011 !important;
+}
+.pageHomeMobile .know {
+  margin-bottom: 0.5rem;
+}
+.pageHomeMobile .know img {
+  display: block;
+  width: 6.88rem;
+  height: auto;
+  border-radius: 0.1rem;
 }
 
 .pagePoduct {
